@@ -1,0 +1,16 @@
+# Задание task_01_06.
+#
+# Выполнил: Гостинцева. С. Д.
+# Группа: ЦИБ-241
+
+
+a = int(input("a= "))
+b = int(input("b= "))
+m = int(input("m= "))
+n = int(input("n="))
+
+x = -(b)/a
+
+is_ok = x>=m and x<=n
+
+print("Попадает:", is_ok)
